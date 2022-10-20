@@ -8,8 +8,7 @@ import kotlin.concurrent.thread
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Thread.sleep(1000)
-        println("Dormio")
+        println("QUE SI FUNCIONA")
         startActivity(Intent(this, MainActivity::class.java))
         finish()
     }

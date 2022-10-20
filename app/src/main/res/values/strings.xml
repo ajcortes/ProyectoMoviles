@@ -2,4 +2,6 @@
     <string name="app_name">Totoro Enjoyers</string>
     <string name="welcome">Bienvenido a nuestra red sobre Studio Ghibli</string>
     <string name="start">Comenzar</string>
+    <string name="contact">Contactar</string>
+    <string name="info">Bienvenido %s estas usando la versión 1.0 de la aplicación Totoro Enjoyers la cual sera una red social utilizada para guardar y calificar las peliculas del Studio Ghibli</string>
 </resources>
