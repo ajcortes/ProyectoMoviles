@@ -23,8 +23,17 @@
         android:layout_height="180dp"
         android:layout_gravity="center"
         android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
         android:adjustViewBounds="true"
         android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="usuario" />
 
 
 
@@ -42,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="22dp"
-            android:text="Button" />
+            android:text="@string/start" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
