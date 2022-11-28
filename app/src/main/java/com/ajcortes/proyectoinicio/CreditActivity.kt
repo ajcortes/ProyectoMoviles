@@ -12,7 +12,7 @@ class CreditActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_credit)
 
-        //obtener una referencia a la etiqueta de la actividad
+        //obtener una referencia a la etiqueta de la activida
         val tvGreeting = findViewById<TextView>(R.id.tvUser)
 
         //recogemos el nombre del inten
