@@ -15,7 +15,7 @@ class CreditActivity : AppCompatActivity() {
         //obtener una referencia a la etiqueta de la actividad
         val tvGreeting = findViewById<TextView>(R.id.tvUser)
 
-        //recogemos el nombre del intent
+        //recogemos el nombre del inten
         val nombre = intent.getStringExtra("NAME")
         //creamos la cadena del saludo
         tvGreeting.apply {
