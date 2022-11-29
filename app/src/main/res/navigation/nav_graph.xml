@@ -9,5 +9,50 @@
         android:id="@+id/loginFragment"
         android:name="com.ajcortes.proyectoinicio.LoginFragment"
         android:label="fragment_hero_list"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.ajcortes.proyectoinicio.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_filmsFragment"
+            app:destination="@id/filmsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_favouriteFilmsFragment"
+            app:destination="@id/favouriteFilmsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_creditFragment"
+            app:destination="@id/creditFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmsFragment"
+        android:name="com.ajcortes.proyectoinicio.FilmsFragment"
+        android:label="fragment_films"
+        tools:layout="@layout/fragment_films" />
+    <fragment
+        android:id="@+id/favouriteFilmsFragment"
+        android:name="com.ajcortes.proyectoinicio.FavouriteFilmsFragment"
+        android:label="fragment_favourite_films"
+        tools:layout="@layout/fragment_favourite_films" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.ajcortes.proyectoinicio.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/creditFragment"
+        android:name="com.ajcortes.proyectoinicio.CreditFragment"
+        android:label="fragment_credit"
+        tools:layout="@layout/fragment_credit" />
 </navigation>

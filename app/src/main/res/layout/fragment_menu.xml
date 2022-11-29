@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/butFilms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_vertical_margin"
+            android:text="@string/butList"
+            app:layout_constraintBottom_toTopOf="@+id/butFavFilms"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/butFavFilms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listFav"
+            app:layout_constraintBottom_toTopOf="@+id/butUser"
+            app:layout_constraintEnd_toEndOf="@+id/butFilms"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/butFilms"
+            app:layout_constraintTop_toBottomOf="@+id/butFilms" />
+
+        <Button
+            android:id="@+id/butCredits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credits"
+            app:layout_constraintBottom_toTopOf="@+id/butExit"
+            app:layout_constraintEnd_toEndOf="@+id/butUser"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/butUser"
+            app:layout_constraintTop_toBottomOf="@+id/butUser" />
+
+        <Button
+            android:id="@+id/butExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fragment_horizontal_margin"
+            android:text="@string/salir"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/butCredits"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/butCredits"
+            app:layout_constraintTop_toBottomOf="@+id/butCredits" />
+
+        <Button
+            android:id="@+id/butUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userInfo"
+            app:layout_constraintBottom_toTopOf="@+id/butCredits"
+            app:layout_constraintEnd_toEndOf="@+id/butFavFilms"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/butFavFilms"
+            app:layout_constraintTop_toBottomOf="@+id/butFavFilms" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
