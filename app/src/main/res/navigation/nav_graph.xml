@@ -39,7 +39,11 @@
         android:id="@+id/filmsFragment"
         android:name="com.ajcortes.proyectoinicio.FilmsFragment"
         android:label="fragment_films"
-        tools:layout="@layout/fragment_films" />
+        tools:layout="@layout/fragment_films" >
+        <action
+            android:id="@+id/action_filmsFragment_to_detailsFilmFragment"
+            app:destination="@id/detailsFilmFragment" />
+    </fragment>
     <fragment
         android:id="@+id/favouriteFilmsFragment"
         android:name="com.ajcortes.proyectoinicio.FavouriteFilmsFragment"
@@ -49,10 +53,23 @@
         android:id="@+id/userFragment"
         android:name="com.ajcortes.proyectoinicio.UserFragment"
         android:label="fragment_user"
-        tools:layout="@layout/fragment_user" />
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_userFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
     <fragment
         android:id="@+id/creditFragment"
         android:name="com.ajcortes.proyectoinicio.CreditFragment"
         android:label="fragment_credit"
-        tools:layout="@layout/fragment_credit" />
+        tools:layout="@layout/fragment_credit" >
+        <action
+            android:id="@+id/action_creditFragment_to_menuFragment2"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFilmFragment"
+        android:name="com.ajcortes.proyectoinicio.DetailsFilmFragment"
+        android:label="fragment_details_film"
+        tools:layout="@layout/fragment_details_film" />
 </navigation>

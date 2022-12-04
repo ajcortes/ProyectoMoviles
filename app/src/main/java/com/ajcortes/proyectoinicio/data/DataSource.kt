@@ -12,8 +12,8 @@ object DataSource {
                 "1986",
                 "124",
                 "95",
-                "https://image.tmdb.org/t/p/w600_and_h900_bestv2/npOnzAbLh6VOIu3naU5QaEcTepo.jpg",
-                "https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg"
+                "castle_in_the_sky",
+                "castle_in_the_sky_banner"
             ),
             Film(
                 "火垂るの墓",
@@ -24,8 +24,8 @@ object DataSource {
                 "1988",
                 "89",
                 "97",
-                "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qG3RYlIVpTYclR9TYIsy8p7m7AT.jpg",
-                "https://image.tmdb.org/t/p/original/vkZSd0Lp8iCVBGpFH9L7LzLusjS.jpg"
+                "grave_of_the_fireflies",
+                "grave_of_the_fireflies_banner"
             ),
             Film(
                 "となりのトトロ",
@@ -36,8 +36,8 @@ object DataSource {
                 "1988",
                 "86",
                 "93",
-                "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
-                "https://image.tmdb.org/t/p/original/etqr6fOOCXQOgwrQXaKwenTSuzx.jpg"
+                "my_neighbor_totoro",
+                "my_neighbor_totoro_banner"
             ),
             Film(
                 "魔女の宅急便",
@@ -48,8 +48,8 @@ object DataSource {
                 "1989",
                 "102",
                 "96",
-                "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7nO5DUMnGUuXrA4r2h6ESOKQRrx.jpg",
-                "https://image.tmdb.org/t/p/original/h5pAEVma835u8xoE60kmLVopLct.jpg"
+                "kiki_delivery_service",
+                "kiki_delivery_service_banner"
             ),
             Film(
                 "おもひでぽろぽろ",
@@ -60,8 +60,8 @@ object DataSource {
                 "1991",
                 "118",
                 "100",
-                "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xjJU6rwzLX7Jk8HFQfVW6H5guMC.jpg",
-                "https://image.tmdb.org/t/p/w533_and_h300_bestv2/isCrlWWI4JrdLKAUAwFb5cjAsH4.jpg"
+                "only_yesterday",
+                "only_yesterday_banner"
             ),
             Film(
                 "もののけ姫",
@@ -72,8 +72,8 @@ object DataSource {
                 "1997",
                 "134",
                 "92",
-                "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jHWmNr7m544fJ8eItsfNk8fs2Ed.jpg",
-                "https://image.tmdb.org/t/p/original/6pTqSq0zYIWCsucJys8q5L92kUY.jpg"
+                "princess_mononoke",
+                "princess_mononoke_banner"
             ),
             Film(
                 "千と千尋の神隠し",
@@ -84,8 +84,8 @@ object DataSource {
                 "2001",
                 "124",
                 "97",
-                "https://image.tmdb.org/t/p/w600_and_h900_bestv2/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
-                "https://image.tmdb.org/t/p/original/bSXfU4dwZyBA1vMmXvejdRXBvuF.jpg"
+                "spirited_away",
+                "spirited_away_banner"
             )
         )
         return filmList
