@@ -3,4 +3,8 @@
  <dimen name="fragment_horizontal_margin">16dp</dimen>
  <dimen name="fragment_vertical_margin">16dp</dimen>
     <dimen name="fragment_star">14dp</dimen>
+    <dimen name="detail_film">45dp</dimen>
+    <dimen name="tvDate">4dp</dimen>
+    <dimen name="big_margin">100dp</dimen>
+    <dimen name="medium_margin">50dp</dimen>
 </resources>

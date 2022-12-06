@@ -24,10 +24,22 @@
     <string name="credits">Credits</string>
     <string name="salir">Exit</string>
     <string name="Creditos">Versión 1.0 de la aplicacion.\nEsta aplicacion es una aplicacion destinada a los fans de ghibli</string>
-    <string name="back">Volver</string>
+    <string name="back">Back</string>
     <string name="placeholderUser">Nombre de usuario: Prueba\nCorreo Electrónico: Prueba@gmail.com \nFecha de creacion: 21/02/1999 </string>
     <string name="film_list">Film list</string>
     <string name="minutes">mins</string>
     <string name="percentaje">%</string>
     <string name="selected_star">You put on favourites: %s.</string>
+    <string name="titles">Titles: </string>
+    <string name="japan_example">天空の城ラピュタ / Castle in the Sky</string>
+    <string name="director">Director:</string>
+    <string name="director_example">Hayao Miyazaki</string>
+    <string name="productor">Producer: </string>
+    <string name="producer_example">Isao Takahata</string>
+    <string name="year_example">1986</string>
+    <string name="duration_example">124 mins</string>
+    <string name="percentaje_example">95%</string>
+    <string name="character">Character</string>
+    <string name="name_example">Kiki</string>
+    <string name="film_list_favorite">List of favourite films</string>
 </resources>

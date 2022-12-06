@@ -9,7 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmBinding
 import com.ajcortes.proyectoinicio.databinding.FragmentMenuBinding
 
-class DetailsFilmFragment : Fragment() {
+class DetailsFilmFavFragment : Fragment() {
 
     private var _binding : FragmentDetailsFilmBinding? = null
     val binding
@@ -27,7 +27,7 @@ class DetailsFilmFragment : Fragment() {
         _binding = FragmentDetailsFilmBinding.inflate(inflater,container,false)
 
         binding.butVolverDetail.setOnClickListener{
-            findNavController().navigate(R.id.action_detailsFilmFragment_to_filmsFragment)
+            findNavController().navigate(R.id.action_detailsFilmFavFragment_to_favouriteFilmsFragment)
         }
 
         return binding.root
