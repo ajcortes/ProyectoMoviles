@@ -32,7 +32,7 @@ class LoginFragment : Fragment() {
         _binding = FragmentLoginBinding.inflate(inflater,container,false)
 
         binding.buttonComenzar.setOnClickListener{
-            findNavController().navigate(R.id.action_loginFragment_to_menuFragment)
+            findNavController().navigate(R.id.action_loginFragment_to_noticeFragment)
         }
 
         return binding.root

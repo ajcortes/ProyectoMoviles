@@ -38,8 +38,12 @@
     <string name="producer_example">Isao Takahata</string>
     <string name="year_example">1986</string>
     <string name="duration_example">124 mins</string>
-    <string name="percentaje_example">95%</string>
+    <string name="percentaje_example">95/100</string>
     <string name="character">Character</string>
     <string name="name_example">Kiki</string>
     <string name="film_list_favorite">List of favourite films</string>
+    <string name="notice">News</string>
+    <string name="second_tab">Second tab</string>
+    <string name="menu">Menu</string>
+    <string name="first_tab">First Tab</string>
 </resources>

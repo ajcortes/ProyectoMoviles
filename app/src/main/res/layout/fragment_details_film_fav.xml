@@ -20,109 +20,137 @@
 
     <TextView
         android:id="@+id/tvJapan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/fragment_horizontal_margin"
-        android:layout_marginEnd="@dimen/fragment_horizontal_margin"
         android:text="@string/japan_example"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintVertical_bias="0.36"
+        style="@style/title_details" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/fragment_horizontal_margin"
         android:text="@string/director"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView10" />
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        style="@style/text_ghibli" />
 
     <TextView
         android:id="@+id/textView10"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
+        android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/director_example"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toTopOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/tvJapan" />
 
     <TextView
         android:id="@+id/textView11"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="@dimen/fragment_horizontal_margin"
+        android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/productor"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="@+id/textView12" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView12"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/producer_example"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/tvJapan" />
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
         android:id="@+id/textView14"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
         android:text="@string/year"
-        app:layout_constraintStart_toStartOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
 
     <TextView
         android:id="@+id/textView15"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
         android:text="@string/year_example"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView14"
         app:layout_constraintTop_toTopOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/textView16"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/fragment_horizontal_margin"
+        android:layout_marginStart="32dp"
         android:text="@string/duration"
-        app:layout_constraintStart_toEndOf="@+id/textView15"
-        app:layout_constraintTop_toTopOf="@+id/textView15" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView17"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
         android:text="@string/duration_example"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView16"
         app:layout_constraintTop_toTopOf="@+id/textView16" />
 
     <TextView
         android:id="@+id/textView18"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/fragment_horizontal_margin"
+        android:layout_marginStart="@dimen/fragment_vertical_margin"
+        android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/score"
-        app:layout_constraintStart_toEndOf="@+id/textView17"
-        app:layout_constraintTop_toTopOf="@+id/textView17" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView19"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
         android:text="@string/percentaje_example"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView18"
         app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="64dp"
+        android:layout_height="67dp"
+        android:src="@drawable/kiki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -133,7 +161,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -156,16 +184,6 @@
         app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="64dp"
-        android:layout_height="67dp"
-        android:src="@drawable/kiki"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
-    <ImageView
         android:id="@+id/imageView6"
         android:layout_width="64dp"
         android:layout_height="67dp"
@@ -177,56 +195,70 @@
 
     <TextView
         android:id="@+id/textView25"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textView26"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView28"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <TextView
         android:id="@+id/textView30"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <TextView
         android:id="@+id/textView29"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <Button
         android:id="@+id/butVolverDetail"
+        style="@style/buttons_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/fragment_horizontal_margin"

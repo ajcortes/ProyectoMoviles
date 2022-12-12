@@ -11,8 +11,8 @@
         android:label="fragment_hero_list"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_menuFragment"
-            app:destination="@id/menuFragment" />
+            android:id="@+id/action_loginFragment_to_noticeFragment"
+            app:destination="@id/noticeFragment" />
     </fragment>
     <fragment
         android:id="@+id/menuFragment"
@@ -89,5 +89,14 @@
         <action
             android:id="@+id/action_detailsFilmFavFragment_to_favouriteFilmsFragment"
             app:destination="@id/favouriteFilmsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noticeFragment"
+        android:name="com.ajcortes.proyectoinicio.NoticeFragment"
+        android:label="fragment_notice"
+        tools:layout="@layout/fragment_notice" >
+        <action
+            android:id="@+id/action_noticeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
     </fragment>
 </navigation>

@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ajcortes.proyectoinicio.data.DataSource
 import com.ajcortes.proyectoinicio.data.Film
+import com.ajcortes.proyectoinicio.databinding.FragmentFavouriteFilmsBinding
 import com.ajcortes.proyectoinicio.databinding.FragmentFilmsBinding
 import com.google.android.material.snackbar.Snackbar
 
@@ -18,7 +19,7 @@ class FavouriteFilmsFragment : Fragment() {
     private lateinit var linearLayoutManager: LinearLayoutManager
     private lateinit var filmList : MutableList<Film>
 
-    private var _binding : FragmentFilmsBinding? = null
+    private var _binding : FragmentFavouriteFilmsBinding? = null
     val binding
         get() = _binding!!
 
@@ -33,7 +34,7 @@ class FavouriteFilmsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentFilmsBinding.inflate(inflater,container,false)
+        _binding = FragmentFavouriteFilmsBinding.inflate(inflater,container,false)
         return binding.root
     }
 

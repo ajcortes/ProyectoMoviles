@@ -12,17 +12,17 @@
 
         <Button
             android:id="@+id/butFilms"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/fragment_vertical_margin"
             android:text="@string/butList"
             app:layout_constraintBottom_toTopOf="@+id/butFavFilms"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="@color/white"
+            style="@style/buttons_ghibli" />
 
         <Button
             android:id="@+id/butFavFilms"
+            style="@style/buttons_ghibli"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/listFav"
@@ -34,6 +34,7 @@
 
         <Button
             android:id="@+id/butCredits"
+            style="@style/buttons_ghibli"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/credits"
@@ -45,6 +46,7 @@
 
         <Button
             android:id="@+id/butExit"
+            style="@style/buttons_ghibli"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/fragment_horizontal_margin"
@@ -57,6 +59,7 @@
 
         <Button
             android:id="@+id/butUser"
+            style="@style/buttons_ghibli"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/userInfo"

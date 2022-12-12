@@ -9,7 +9,6 @@
         android:id="@+id/ivPortada"
         android:layout_width="125dp"
         android:layout_height="185dp"
-        android:layout_marginStart="@dimen/fragment_horizontal_margin"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -17,6 +16,7 @@
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/duration"
@@ -27,6 +27,7 @@
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fragment_horizontal_margin"
@@ -38,6 +39,7 @@
 
     <TextView
         android:id="@+id/textView4"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/score"
@@ -47,12 +49,14 @@
 
     <TextView
         android:id="@+id/tvTitle"
+        style="@style/title_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fragment_horizontal_margin"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:layout_marginEnd="@dimen/fragment_horizontal_margin"
         android:text="TextView"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toEndOf="@+id/ivPortada"
@@ -61,6 +65,7 @@
 
     <TextView
         android:id="@+id/tvYearRelease"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fragment_horizontal_margin"
@@ -72,36 +77,42 @@
 
     <TextView
         android:id="@+id/tvDuration"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_horizontal_margin"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/tvScore"
-        app:layout_constraintStart_toStartOf="@+id/tvYearRelease"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/tvYearRelease" />
 
     <TextView
         android:id="@+id/tvScore"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_horizontal_margin"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="@+id/ivPortada"
-        app:layout_constraintStart_toStartOf="@+id/tvDuration"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/tvDuration" />
 
     <ImageView
         android:id="@+id/ivStar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/fragment_horizontal_margin"
+        android:layout_marginStart="@dimen/tvDate"
         android:layout_marginTop="@dimen/fragment_star"
         android:layout_marginEnd="@dimen/fragment_horizontal_margin"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tvTitle"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/film_favourite" />
 
     <TextView
         android:id="@+id/textView"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
@@ -111,6 +122,7 @@
 
     <TextView
         android:id="@+id/textView5"
+        style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
