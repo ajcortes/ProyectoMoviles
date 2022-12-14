@@ -26,14 +26,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.36"
-        style="@style/title_details" />
+        style="@style/title_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/textView9"
         android:text="@string/director"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView10"
-        style="@style/text_ghibli" />
+        style="@style/text_ghibli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/textView10"
@@ -43,7 +47,6 @@
         android:layout_marginStart="@dimen/tvDate"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/director_example"
-        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/tvJapan" />
 
@@ -55,7 +58,6 @@
         android:layout_marginStart="@dimen/fragment_horizontal_margin"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/productor"
-        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -67,7 +69,6 @@
         android:layout_marginStart="@dimen/tvDate"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/producer_example"
-        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -78,7 +79,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/year"
-        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="@+id/textView10" />
 
@@ -89,7 +89,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
         android:text="@string/year_example"
-        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView14"
@@ -102,7 +101,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/duration"
-        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="@+id/textView12" />
 
@@ -113,7 +111,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
         android:text="@string/duration_example"
-        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView16"
         app:layout_constraintTop_toTopOf="@+id/textView16" />
 
@@ -125,7 +122,6 @@
         android:layout_marginStart="@dimen/fragment_vertical_margin"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/score"
-        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -136,7 +132,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/tvDate"
         android:text="@string/percentaje_example"
-        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView18"
@@ -200,7 +195,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
-        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="@+id/imageView"
@@ -213,7 +207,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
-        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
@@ -226,7 +219,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
-        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -238,7 +230,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
-        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
         app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
@@ -251,7 +242,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/name_example"
-        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -266,5 +256,16 @@
         android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/butComment"
+        style="@style/buttons_ghibli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/fragment_horizontal_margin"
+        android:layout_marginBottom="@dimen/fragment_vertical_margin"
+        android:text="@string/comment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/butVolverDetail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

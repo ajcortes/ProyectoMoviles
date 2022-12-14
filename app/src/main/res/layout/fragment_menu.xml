@@ -12,13 +12,15 @@
 
         <Button
             android:id="@+id/butFilms"
+            style="@style/buttons_ghibli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/butList"
             app:layout_constraintBottom_toTopOf="@+id/butFavFilms"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:rippleColor="@color/white"
-            style="@style/buttons_ghibli" />
+            app:rippleColor="@color/white" />
 
         <Button
             android:id="@+id/butFavFilms"
