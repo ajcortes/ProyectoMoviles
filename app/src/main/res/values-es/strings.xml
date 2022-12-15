@@ -49,4 +49,5 @@
     <string name="films">Peliculas</string>
     <string name="info">Estas usando la version 1.0 de nuestra aplicacion Totoro Enjoyers la cual es usada para guardar y calificar peliculas del Studio Ghibli</string>
     <string name="placeholderUser">Nombre de usuario: Prueba\nCorreo Electrónico: Prueba@gmail.com \nFecha de creacion: 21/02/1999</string>
+    <string name="user">Usuario</string>
 </resources>
