@@ -1,0 +1,414 @@
+@startuml
+
+title __PROYECTOMOVILES's Class Diagram__\n
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.BuildConfig {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.BuildConfig {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.CreditFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.CreditFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFavFragmentArgs {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFavFragmentArgs {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFavFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFavFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFragmentArgs {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFragmentArgs {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.DetailsFilmFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.FavouriteFilmsFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.FavouriteFilmsFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.FilmsFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.FilmsFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.LoginFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.LoginFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.MenuFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.MenuFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.NoticeFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.NoticeFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.UserFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    class com.ajcortes.proyectoinicio.UserFragmentDirections {
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.ActivityMainBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.ActivityMainBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FilmItemBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FilmItemBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FilmItemFavBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FilmItemFavBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentCreditBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentCreditBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmFavBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmFavBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentFavouriteFilmsBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentFavouriteFilmsBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentFilmsBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentFilmsBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentLoginBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentLoginBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentMenuBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentMenuBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentNoticeBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentNoticeBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentTab1NoticeBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentTab1NoticeBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentTab2NoticeBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentTab2NoticeBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentUserBinding {
+      }
+    }
+  }
+  
+
+  namespace com.ajcortes.proyectoinicio {
+    namespace databinding {
+      class com.ajcortes.proyectoinicio.databinding.FragmentUserBinding {
+      }
+    }
+  }
+  
+
+  com.ajcortes.proyectoinicio.DetailsFilmFavFragmentArgs .up.|> androidx.navigation.NavArgs
+  com.ajcortes.proyectoinicio.DetailsFilmFavFragmentArgs .up.|> NavArgs
+  com.ajcortes.proyectoinicio.DetailsFilmFragmentArgs .up.|> androidx.navigation.NavArgs
+  com.ajcortes.proyectoinicio.DetailsFilmFragmentArgs .up.|> NavArgs
+  com.ajcortes.proyectoinicio.databinding.ActivityMainBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.ActivityMainBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FilmItemBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FilmItemBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FilmItemFavBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FilmItemFavBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentCreditBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentCreditBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmFavBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentDetailsFilmFavBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentFavouriteFilmsBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentFavouriteFilmsBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentFilmsBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentFilmsBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentLoginBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentLoginBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentMenuBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentMenuBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentNoticeBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentNoticeBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentTab1NoticeBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentTab1NoticeBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentTab2NoticeBinding .up.|> ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentTab2NoticeBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentUserBinding .up.|> androidx.viewbinding.ViewBinding
+  com.ajcortes.proyectoinicio.databinding.FragmentUserBinding .up.|> ViewBinding
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

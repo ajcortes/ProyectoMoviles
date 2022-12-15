@@ -33,16 +33,16 @@ class DetailsFilmFavFragment : Fragment() {
 
         val film = filmList[args.film]
 
-        val context = binding.ivBannerDetailsFav!!.context
+        val context = binding.ivBannerDetailsFav.context
         val idRes = context.resources.getIdentifier(film.banner, FilmAdapter.DRAWABLE,context.packageName)
 
-        binding.ivBannerDetailsFav!!.setImageResource(idRes)
+        binding.ivBannerDetailsFav.setImageResource(idRes)
         binding.tvJapan.text = film.japaneseTitle +"/"+film.englishTitle
-        binding.tvDirector!!.text = film.director
-        binding.tvProducer!!.text = film.producer
-        binding.tvRottenTomatoes!!.text = film.rt+"/100"
-        binding.tvYear!!.text = film.year
-        binding.tvTime!!.text = film.duration+" mins"
+        binding.tvDirector.text = film.director
+        binding.tvProducer.text = film.producer
+        binding.tvRottenTomatoes.text = film.rt+"/100"
+        binding.tvYear.text = film.year
+        binding.tvTime.text = film.duration+" mins"
 
         binding.butVolverDetail.setOnClickListener{
             findNavController().navigate(R.id.action_detailsFilmFavFragment_to_favouriteFilmsFragment)
