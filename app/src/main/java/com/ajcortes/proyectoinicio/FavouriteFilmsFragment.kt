@@ -35,6 +35,11 @@ class FavouriteFilmsFragment : Fragment() {
     ): View? {
 
         _binding = FragmentFavouriteFilmsBinding.inflate(inflater,container,false)
+
+        binding.butVolverListaFav.setOnClickListener{
+            findNavController().navigate(R.id.action_favouriteFilmsFragment_to_menuFragment)
+        }
+
         return binding.root
     }
 
@@ -50,6 +55,7 @@ class FavouriteFilmsFragment : Fragment() {
 
         filmAdapter = FilmAdapterFav(
             filmList,
+            onClickUnfavourite = { pos -> unfavFilm(pos)},
             onClickDetails = { pos -> goDetails(pos)}
         )
         linearLayoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.VERTICAL,false)
@@ -59,11 +65,17 @@ class FavouriteFilmsFragment : Fragment() {
         binding.rvFilmList.adapter = filmAdapter
     }
 
+    fun unfavFilm(pos : Int)
+    {
+        var film = filmList[pos].copy()
+
+        Snackbar.make(requireView(),requireContext().getString(R.string.selected_star_un,film.englishTitle), Snackbar.LENGTH_SHORT).show()
+    }
 
     fun goDetails(pos : Int)
     {
         var film = filmList[pos].copy()
 
-        findNavController().navigate(R.id.action_favouriteFilmsFragment_to_detailsFilmFavFragment)
+        findNavController().navigate(FavouriteFilmsFragmentDirections.actionFavouriteFilmsFragmentToDetailsFilmFavFragment(pos))
     }
 }

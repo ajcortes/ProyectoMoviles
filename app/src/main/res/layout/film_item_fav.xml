@@ -115,4 +115,14 @@
         android:text="@string/percentaje"
         app:layout_constraintStart_toEndOf="@+id/tvScore"
         app:layout_constraintTop_toTopOf="@+id/tvScore" />
+
+    <ImageView
+        android:id="@+id/ivStarFill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tvDate"
+        android:layout_marginTop="@dimen/fragment_star"
+        app:layout_constraintStart_toEndOf="@+id/tvTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/film_favourite_fill" />
 </androidx.constraintlayout.widget.ConstraintLayout>

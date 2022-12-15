@@ -34,8 +34,12 @@ class FilmsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         _binding = FragmentFilmsBinding.inflate(inflater,container,false)
+
+        binding.butBotonVolverLista.setOnClickListener{
+            findNavController().navigate(R.id.action_filmsFragment_to_menuFragment)
+        }
+
         return binding.root
     }
 
@@ -72,6 +76,6 @@ class FilmsFragment : Fragment() {
     {
         var film = filmList[pos].copy()
 
-        findNavController().navigate(R.id.action_filmsFragment_to_detailsFilmFragment)
+        findNavController().navigate(FilmsFragmentDirections.actionFilmsFragmentToDetailsFilmFragment(pos))
     }
 }

@@ -25,11 +25,21 @@
         android:layout_marginStart="@dimen/tvDate"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="@dimen/fragment_horizontal_margin"
-        android:layout_marginBottom="@dimen/fragment_vertical_margin"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/tvDate"
+        app:layout_constraintBottom_toTopOf="@+id/butVolverListaFav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textList"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textList" />
+
+    <Button
+        android:id="@+id/butVolverListaFav"
+        style="@style/buttons_ghibli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/fragment_horizontal_margin"
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

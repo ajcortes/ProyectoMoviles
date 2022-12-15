@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/ivBannerDetails"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginBottom="@dimen/fragment_vertical_margin"
@@ -38,10 +38,10 @@
         android:layout_marginStart="@dimen/medium_margin"
         android:text="@string/director"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView10" />
+        app:layout_constraintTop_toTopOf="@+id/tvDirector" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/tvDirector"
         style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/tvProducer"
         style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
         android:layout_marginTop="@dimen/fragment_vertical_margin"
         android:text="@string/producer_example"
         app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDirector" />
 
     <TextView
         android:id="@+id/textView14"
@@ -81,11 +81,11 @@
         android:layout_marginStart="32dp"
         android:text="@string/year"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="@+id/textView10" />
+        app:layout_constraintStart_toEndOf="@+id/tvDirector"
+        app:layout_constraintTop_toTopOf="@+id/tvDirector" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/tvYear"
         style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -105,11 +105,11 @@
         android:layout_marginEnd="32dp"
         android:text="@string/duration"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="@+id/textView12" />
+        app:layout_constraintStart_toEndOf="@+id/tvDirector"
+        app:layout_constraintTop_toTopOf="@+id/tvProducer" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/tvTime"
         style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -127,10 +127,10 @@
         android:text="@string/score"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        app:layout_constraintTop_toBottomOf="@+id/tvProducer" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/tvRottenTomatoes"
         style="@style/text_ghibli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

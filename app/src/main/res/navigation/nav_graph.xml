@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.ajcortes.proyectoinicio.LoginFragment"
-        android:label="fragment_hero_list"
+        android:label="@string/fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_noticeFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.ajcortes.proyectoinicio.MenuFragment"
-        android:label="fragment_menu"
+        android:label="@string/fragment_menu"
         tools:layout="@layout/fragment_menu" >
         <action
             android:id="@+id/action_menuFragment_to_filmsFragment"
@@ -38,25 +38,31 @@
     <fragment
         android:id="@+id/filmsFragment"
         android:name="com.ajcortes.proyectoinicio.FilmsFragment"
-        android:label="fragment_films"
+        android:label="@string/fragment_films"
         tools:layout="@layout/fragment_films" >
         <action
             android:id="@+id/action_filmsFragment_to_detailsFilmFragment"
             app:destination="@id/detailsFilmFragment" />
+        <action
+            android:id="@+id/action_filmsFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
     </fragment>
     <fragment
         android:id="@+id/favouriteFilmsFragment"
         android:name="com.ajcortes.proyectoinicio.FavouriteFilmsFragment"
-        android:label="fragment_favourite_films"
+        android:label="@string/fragment_favourite_films"
         tools:layout="@layout/fragment_favourite_films" >
         <action
             android:id="@+id/action_favouriteFilmsFragment_to_detailsFilmFavFragment"
             app:destination="@id/detailsFilmFavFragment" />
+        <action
+            android:id="@+id/action_favouriteFilmsFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
     </fragment>
     <fragment
         android:id="@+id/userFragment"
         android:name="com.ajcortes.proyectoinicio.UserFragment"
-        android:label="fragment_user"
+        android:label="@string/fragment_user"
         tools:layout="@layout/fragment_user" >
         <action
             android:id="@+id/action_userFragment_to_menuFragment"
@@ -65,7 +71,7 @@
     <fragment
         android:id="@+id/creditFragment"
         android:name="com.ajcortes.proyectoinicio.CreditFragment"
-        android:label="fragment_credit"
+        android:label="@string/fragment_credit"
         tools:layout="@layout/fragment_credit" >
         <action
             android:id="@+id/action_creditFragment_to_menuFragment2"
@@ -74,29 +80,36 @@
     <fragment
         android:id="@+id/detailsFilmFragment"
         android:name="com.ajcortes.proyectoinicio.DetailsFilmFragment"
-        android:label="fragment_details_film"
+        android:label="@string/fragment_details_film"
         tools:layout="@layout/fragment_details_film" >
         <action
             android:id="@+id/action_detailsFilmFragment_to_filmsFragment"
             app:destination="@id/filmsFragment" />
+        <argument android:name="film"
+            app:argType="integer" />
     </fragment>
 
     <fragment
         android:id="@+id/detailsFilmFavFragment"
         android:name="com.ajcortes.proyectoinicio.DetailsFilmFavFragment"
-        android:label="fragment_details_film_fav"
+        android:label="@string/fragment_details_film"
         tools:layout="@layout/fragment_details_film_fav" >
         <action
             android:id="@+id/action_detailsFilmFavFragment_to_favouriteFilmsFragment"
             app:destination="@id/favouriteFilmsFragment" />
+        <argument
+            android:name="film"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/noticeFragment"
         android:name="com.ajcortes.proyectoinicio.NoticeFragment"
-        android:label="fragment_notice"
+        android:label="@string/fragment_notice"
         tools:layout="@layout/fragment_notice" >
         <action
             android:id="@+id/action_noticeFragment_to_menuFragment"
             app:destination="@id/menuFragment" />
     </fragment>
+
+
 </navigation>

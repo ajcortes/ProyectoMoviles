@@ -9,6 +9,7 @@ import com.ajcortes.proyectoinicio.databinding.FilmItemFavBinding
 
 class FilmAdapterFav (
     private var filmList : MutableList<Film>,
+    private val onClickUnfavourite : (Int) -> Unit,
     private val onClickDetails : (Int) -> Unit
 ) : RecyclerView.Adapter<FilmAdapterFav.FilmViewHolder>() {
 
@@ -21,6 +22,7 @@ class FilmAdapterFav (
         private val binding = FilmItemFavBinding.bind(itemView)
 
         fun bind(film: Film,
+                 onClickUnfavourite : (Int) -> Unit,
                  onClickDetails: (Int) -> Unit
         ){
             val context = binding.ivPortada.context
@@ -36,6 +38,9 @@ class FilmAdapterFav (
                 onClickDetails(adapterPosition)
             }
 
+            binding.ivStarFill.setOnClickListener{
+                onClickUnfavourite(adapterPosition)
+            }
         }
     }
 
@@ -46,7 +51,7 @@ class FilmAdapterFav (
 
     override fun onBindViewHolder(holder: FilmViewHolder, position: Int) {
         val film = filmList[position]
-        holder.bind(film,onClickDetails)
+        holder.bind(film,onClickUnfavourite,onClickDetails)
     }
 
     override fun getItemCount(): Int {

@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Totoro Enjoyers</string>
-    <string name="welcome">Bienvenido a nuestra red sobre Studio Ghibli</string>
-    <string name="start">Comenzar</string>
-    <string name="contact">Contactar</string>
-    <string name="info">Bienvenido %s estas usando la versión 1.0 de la aplicación Totoro Enjoyers la cual sera una red social utilizada para guardar y calificar las peliculas del Studio Ghibli</string>
+    <string name="welcome">Welcome our social net about Studio Ghibli</string>
+    <string name="start">Start</string>
+    <string name="contact">Contact</string>
+    <string name="info">You are using the versión 1.0 of the app Totoro Enjoyers which is used to save and calificate films of Studio Ghibli</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -23,28 +23,41 @@
     <string name="userInfo">User info</string>
     <string name="credits">Credits</string>
     <string name="salir">Exit</string>
-    <string name="Creditos">Versión 1.0 de la aplicacion.\nEsta aplicacion es una aplicacion destinada a los fans de ghibli</string>
+    <string name="Creditos" translatable="false">Versión 1.0 de la aplicacion.\nEsta aplicacion es una aplicacion destinada a los fans de ghibli</string>
     <string name="back">Back</string>
-    <string name="placeholderUser">Nombre de usuario: Prueba\nCorreo Electrónico: Prueba@gmail.com \nFecha de creacion: 21/02/1999 </string>
+    <string name="placeholderUser">Username: Prueba\nEmail: Prueba@gmail.com \nCreation Date: 21/02/1999 </string>
     <string name="film_list">Film list</string>
-    <string name="minutes">mins</string>
-    <string name="percentaje">%</string>
-    <string name="selected_star">You put on favourites: %s.</string>
+    <string name="minutes" translatable="false">mins</string>
+    <string name="percentaje" translatable="false">%</string>
+    <string name="selected_star">%s added to favourites</string>
+    <string name="selected_star_un">%s erased from favourites</string>
     <string name="titles">Titles: </string>
-    <string name="japan_example">天空の城ラピュタ / Castle in the Sky</string>
+    <string name="japan_example" translatable="false">天空の城ラピュタ / Castle in the Sky</string>
     <string name="director">Director:</string>
-    <string name="director_example">Hayao Miyazaki</string>
+    <string name="director_example" translatable="false">Hayao Miyazaki</string>
     <string name="productor">Producer: </string>
-    <string name="producer_example">Isao Takahata</string>
-    <string name="year_example">1986</string>
-    <string name="duration_example">124 mins</string>
-    <string name="percentaje_example">95/100</string>
+    <string name="producer_example" translatable="false">Isao Takahata</string>
+    <string name="year_example" translatable="false">1986</string>
+    <string name="duration_example" translatable="false">124 mins</string>
+    <string name="percentaje_example" translatable="false">95/100</string>
     <string name="character">Character</string>
-    <string name="name_example">Kiki</string>
+    <string name="name_example" translatable="false">Kiki</string>
     <string name="film_list_favorite">List of favourite films</string>
     <string name="notice">News</string>
     <string name="second_tab">Second tab</string>
     <string name="menu">Menu</string>
     <string name="first_tab">First Tab</string>
     <string name="comment">Comment</string>
+    <string name="fragment_login">Login</string>
+    <string name="fragment_menu">Menu</string>
+    <string name="fragment_films">Films</string>
+    <string name="fragment_favourite_films">Favourite Films</string>
+    <string name="fragment_user">User information</string>
+    <string name="fragment_credit">Credits</string>
+    <string name="fragment_details_film">Details</string>
+    <string name="fragment_notice">News</string>
+    <string name="discover">Discover</string>
+    <string name="favourite">Favourites</string>
+    <string name="personal">User</string>
+    <string name="films">Films</string>
 </resources>
